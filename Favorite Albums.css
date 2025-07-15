@@ -1,0 +1,74 @@
+body {
+ background:url("https://marketplace.canva.com/EAGDySO5djc/1/0/900w/canva-brown-watercolor-abstract-wallpaper-background-your-story-g_eroZwhOcs.jpg");
+    background-size:cover;
+    padding-top: 69px;
+}
+p{
+    margin:0;
+    color:white;
+    margin-left:2px;
+}
+img{
+    width:170px;
+}
+.main-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    column-gap:5px;
+    row-gap:10px;
+}
+html,body{
+    background-size:cover;
+}
+.box{
+    display:inline-block ;
+    box-shadow:0 0 5px rgba(0,0,0,0.7);
+    
+}
+.intro-div{
+    background-color:orange;
+    box-shadow:0 0 10px rgba(255,255,255,1);
+    position: fixed;
+    left: 0;
+    top:0;
+    right: 0;
+    z-index: 1;
+}
+.intro{
+    font-size:25px;
+    text-align:center ;
+    margin-bottom:20px;
+    background-color:rgba(250,219,81,0.3);
+}
+.img-div{
+    position:relative ;
+}
+.info-div{
+    display:grid;
+    grid-template-rows:1fr 1fr;
+    background-color:;
+    position:absolute ;
+    bottom:4px;
+    width:170px;
+}
+.name-artist{
+    font-weight:bold ;
+}
+.release{
+    color:rgb(100,100,100);
+    margin-top:1px;
+    font-size:15px;
+}
+.home-button-div{
+    width:55px;
+    background-color:rgba(250,150,61,0.7);
+    box-shadow: 2px 3px 5px rgba(255,255,255,0.4);
+    border-radius:50px;
+    position:fixed ;
+    bottom:50px;
+    right:20px;
+}
+.home-button{
+    width:100%;
+    height:100%;
+}
