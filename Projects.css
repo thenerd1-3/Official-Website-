@@ -1,5 +1,6 @@
 body {
     background:url("https://images.pexels.com/photos/1590549/pexels-photo-1590549.jpeg?_gl=1*1cugrnt*_ga*MTc1NTIxMTA0LjE3NTI1MzAwMjA.*_ga_8JE65Q40S6*czE3NTI1MzMwODIkbzIkZzEkdDE3NTI1MzM4ODUkajMzJGwwJGgw");
+    background-size:cover ;
 }
 p{
     color:white;
